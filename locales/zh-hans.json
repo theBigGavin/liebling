@@ -9,6 +9,9 @@
   "You've successfully subscribed to": "你已经成功订阅了",
   "Your email address": "你的 Email 地址",
   "with the email address": "在此邮箱",
+  "Now check your inbox and click the link to confirm your subscription.": "Now check your inbox and click the link to confirm your subscription.",
+  "Please enter a valid email address": "Please enter a valid email address",
+  "Oops! There was an error sending the email, please try later": "Oops! There was an error sending the email, please try later",
   "Email cannot be blank.": "Email 地址不能为空.",
   "Get the latest posts delivered right to your inbox.": "将最新的文章发送到你的收件箱.",
   "Stay up to date! Get all the latest & greatest posts delivered straight to your inbox.": "事不宜迟! 将最新和最好的文章直接发送到你的收件箱.",
@@ -20,7 +23,7 @@
   "Go to the home page": "前往首页",
   "Recent articles": "最近更新",
   "No recent articles found :(": "找不到最近更新的内容 :(",
-  "1 min read": "阅读预计需要1分钟", 
+  "1 min read": "阅读预计需要1分钟",
   "% min read": "阅读预计需要%分钟",
   "No posts": "没有文章",
   "No posts found": "未找到文章",
@@ -36,5 +39,9 @@
   "Type to search": "输入搜索内容",
   "No results for your search, try something different.": "搜索不到内容, 请尝试其他关键词.",
   "JavaScript license information": "JavaScript license 信息",
-  "Toggle dark mode": "切换到暗色模式"
+  "Toggle dark mode": "切换到暗色模式",
+  "Great! You've successfully subscribed.": "Great! You've successfully subscribed.",
+  "Great! Next, complete checkout for full access.": "Great! Next, complete checkout for full access.",
+  "Welcome back! You've successfully signed in.": "Welcome back! You've successfully signed in.",
+  "Success! Your account is fully activated, you now have access to all content.": "Success! Your account is fully activated, you now have access to all content."
 }
