@@ -1,4 +1,5 @@
 routes:
+  /newsletter/: page-newsletter
   /signup/:
     template: members/signup
     data: page.signup
