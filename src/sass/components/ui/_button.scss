@@ -14,7 +14,7 @@
   position: relative;
   background-color: transparent;
   @extend .no-appearance;
-  @include transition(all .25s cubic-bezier(.02,.01,.47,1));
+  @include transition(all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1));
 
   &.outlined {
     color: var(--titles-color);
@@ -29,6 +29,12 @@
       @include transform(translateY(-2px));
       @include bs(0 4px 8px var(--button-shadow-color-hover));
     }
+  }
+
+  &.in-header {
+    margin-left: 20px;
+    height: 32px;
+    padding: 8px 12px 2px 12px;
   }
 
   &.filled {

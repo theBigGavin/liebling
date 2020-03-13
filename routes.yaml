@@ -1,18 +1,9 @@
 routes:
   /: home
-  /members/: page-newsletter
-  /signup/:
-    template: members/signup
-    data: page.signup
-  /signin/:
-    template: members/signin
-    data: page.signin
-  /membership/:
-    template: members/membership
-    data: page.membership
-  /account/:
-    template: members/account
-    data: page.account
+  /newsletter/: page-newsletter
+  /signup/: members/signup
+  /signin/: members/signin
+  /account/: members/account
 
 collections:
   /:
