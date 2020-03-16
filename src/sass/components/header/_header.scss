@@ -29,9 +29,9 @@
     }
   }
 
-  &.headroom--unpinned {
-    @include transform(translateY(-100%));
-  }
+  // &.headroom--unpinned {
+  //   @include transform(translateY(-100%));
+  // }
 
   &.submenu-is-active {
     background-color: var(--background-color);

@@ -18,7 +18,7 @@
     background-color: var(--background-color);
     border-radius: 50%;
     @include bs(0 2px 4px var(--button-shadow-color-normal));
-    @include transition(all .25s cubic-bezier(.02,.01,.47,1));
+    @include transition(all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1));
 
     &:hover {
       @include bs(0 4px 8px var(--button-shadow-color-hover));
@@ -80,7 +80,7 @@
   }
 
   &.more {
-    font-size: 6px;
+    font-size: 14px;
     z-index: 6;
     position: relative;
 
@@ -162,7 +162,7 @@
     position: relative;
     width: 60px;
     height: 60px;
-    font-size: 1.250rem;
+    font-size: 1.25rem;
     margin: 0 auto;
     z-index: 2;
 
@@ -175,7 +175,7 @@
 
   &.in-share {
     color: var(--titles-color);
-    font-size: 0.750rem;
+    font-size: 0.75rem;
     text-decoration: none;
     width: 31px;
     height: 31px;
@@ -249,7 +249,7 @@
 
       &.slick-next {
         right: auto;
-        left : 0;
+        left: 0;
         @include transform(rotate(180deg));
       }
     }
